@@ -60,8 +60,8 @@
 
    // This line goes inside the playGame function
    document.querySelector('.js-moves').innerHTML = `You
-    <img src="./images/${playermove}-emoji.png" class="move-icon">
-    <img src="./images/${computerMove}-emoji.png" class="move-icon">
+    <img src="./images/${playermove.toLowerCase()}-emoji.png" class="move-icon">
+    <img src="./images/${computerMove.toLowerCase()}-emoji.png" class="move-icon">
     Computer`;
    } 
    function updateScoreElement(){
